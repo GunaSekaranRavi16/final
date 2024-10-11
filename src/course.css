@@ -1,0 +1,67 @@
+.capcut-course {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+  h2{
+    font-weight: bolder;
+    font-size: 35px;
+  }
+  .t1 span{
+    color: #f89800;
+    font-weight: bolder;
+    text-shadow: #f89800 0px 0px 4px,
+                 #f89800 2px 2px 3px;
+  }
+  .cc{
+    width: 40%;
+    height: auto;
+  }
+  
+  .modules-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .module-card{
+    width: 200px; /* Adjust width as needed */
+    text-align: center;
+    margin: 10px;
+    border: 3px solid #f89800;    
+    justify-content: center;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px grey; /* Adds grey shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.module-card:hover {
+    transform: scale(1.1); /* Pops the button slightly when hovering */
+    box-shadow: 0px 6px 15px grey; /* Increases the shadow on hover */
+}
+
+  
+  
+  @media (max-width: 768px) {
+    /* Adjust media query breakpoint as needed */
+    .modules-container {
+      justify-content: center;
+    }
+    .arr{
+      display: flex;
+    flex-direction: column;
+    }
+  
+    .module-card {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+    .cc{
+      width: 100%;
+      height: auto;
+    }
+    
+  }

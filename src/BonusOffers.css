@@ -1,0 +1,57 @@
+.bonus-offers {
+    color: white;
+    background-color: black;
+    padding: 1%;
+    margin-top: 0%;
+}
+
+.bonuses {
+    display: flex; /* Use flexbox to arrange images in a row */
+   /* justify-content: space-around;  Space between images */
+    align-items: center; /* Vertically align the images */
+    width: 100%; /* Container takes full width */
+    padding: 20px; /* Add some padding for spacing */
+    justify-content: space-around;  
+}
+  
+  .b1 {
+    width: 30%; /* Set each image to take up 20% of the row */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Make sure the image fits well inside the container */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    /* box-shadow:white 5px 5px 10px; */
+    
+}
+/* .bonuses img{
+    box-shadow:white 5px 5px 10px;
+} */
+.bon{
+    /* color:greenyellow; */
+    font-size: 25px;
+    font-weight: bold;
+    color: #47f300;
+    text-shadow: 
+        #47f300 0 0 10px, /* First shadow */
+        #47f300 0 0 20px;
+  }
+  .bon h1{
+    font-size: 100px
+  }
+  
+
+@media screen and (max-width: 768px) {
+    .bonuses {
+        flex-direction: column;
+        margin: 2%;
+    }
+    .b1 {
+        width: 100%; /* Set each image to take up 20% of the row */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: contain; 
+        justify-content: space-around; /* Space between images */
+        align-items: center;/* Make sure the image fits well inside the container */
+      }
+      
+}

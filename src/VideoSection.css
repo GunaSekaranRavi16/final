@@ -1,0 +1,47 @@
+.video-section {
+    padding: 20px;
+    background-color: #000;
+  }
+  
+  .video-section h2 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  .videos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .video-card {
+    margin: 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .wow {
+    font-size: 60px;
+    color: #47f300;
+    text-shadow: 
+        #47f300 0 0 10px, /* First shadow */
+        #47f300 0 0 20px; /* Second shadow */
+    animation: pop 2s infinite; /* Applies the pop animation every 2 seconds infinitely */
+    transition: transform 0.3s ease; /* Smoothens the transition between the scale sizes */ 
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1); /* Normal size */
+    }
+    50% {
+        transform: scale(1.2); /* Bigger size, creating the pop effect */
+    }
+    100% {
+        transform: scale(1); /* Back to normal size */
+    }
+}
+
+ 
+  

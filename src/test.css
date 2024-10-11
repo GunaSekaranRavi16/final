@@ -1,0 +1,76 @@
+.mastery-course {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.mastery-course h2 {
+  color: #f89800;
+  font-size: 35px;
+}
+.master{
+  color: white;
+}
+
+.course-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category {
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Set a fixed height for uniformity */
+  margin: 3%;
+  padding: 10px; /* Padding inside the box */
+  border: 2px solid orange;
+  display: flex;
+  flex-direction: column; /* Stacks image and text vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  text-align: center; /* Aligns text to the center */
+  border-radius: 10px;
+  font-size: 12px;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.category img {
+  width: 70px;
+  height: auto;
+  display: block; /* Ensures image behaves as a block element */
+  margin-bottom: 10px; /* Adds space between the image and the text */
+}
+
+.category p {
+  font-weight: bold; /* Makes the text bold */
+  text-transform: uppercase; /* Transforms text to uppercase */
+  margin: 0; /* Ensures no margin is added by default */
+  padding-top: 10px; /* Optional: Adds space between image and text */
+}
+
+.category:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1); /* Pop animation */
+  z-index: 10;
+}
+
+@media screen and (max-width: 768px) {
+  .course-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .category {
+    width: 50%; /* Adjusted for mobile screens */
+    height: auto; /* Allowing height to adjust on mobile */
+  }
+  .category img {
+    width: 70%;
+    height: auto;
+  }
+  .category p {
+    font-size: 12px;
+  }
+}

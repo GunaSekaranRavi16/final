@@ -1,0 +1,266 @@
+.App {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
+  
+  
+  .header {
+    background-color: #000000;
+    padding-top: 20px;
+    /* padding-right:20px ; */
+    color: white;
+  }
+  
+ .tit span{
+    color: #f89800;
+  }
+  .tit{
+    font-size: 45px;
+  }
+  .yt{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid #f89800; */
+    border-radius: 10px;
+  }
+  iframe{
+    padding-top: 2%;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+  }
+  .btn01{
+    font-weight: bolder;
+    padding: 30px;
+    box-shadow: 5px 6px 6px grey; /* Adds grey shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: shake 0.5s ease-in-out  2.5s infinite; /* Smooth transition for pop and shadow effect */
+}
+
+.btn01:hover {
+    transform: scale(1.1); /* Pops the button slightly when hovering */
+    box-shadow: 5px 6px 15px grey; /* Increases the shadow on hover */
+}
+  
+  
+ 
+  .trainer-info {
+    padding: 10%;
+    margin: 0%;
+  }
+  
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .bonuses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .video-section {
+    padding: 20px;
+  }
+  
+  .video-section h2 {
+    color: #00ffdf;
+    margin-bottom: 20px;
+  }
+  
+  .videos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .video-card {
+    margin: 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .before-after {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+  }
+  
+  .before-after span {
+    background-color: red;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .before-after span:nth-child(2) {
+    background-color: green;
+  }
+  .faq {
+   background-color: #000;
+   color: white;
+  }
+
+  @media screen and (max-width: 768px) {
+  .yt{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  iframe{
+    width: 100%;
+  }
+  button{
+    align-items: center;
+    padding: 10% 10%;
+    /* padding-right: 15%; */
+  }
+  .button {
+    margin: 10px;
+    /* padding: 50px 50px; */
+  }
+  }
+  .trainer-info{
+    background-color: black;
+    color: white;
+  }
+  .about-trainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .trainer-details {
+    margin-bottom: 20px;
+  }
+  
+  .trainer-details h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .trainer-details p {
+    margin-bottom: 10px;
+  }
+  
+  .enroll-button {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+.enroll-button01 {
+  background-color: red;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  font-size: 2px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  animation: shake 0.5s ease-in-out 2.5s infinite;
+
+}
+.enroll-button01 h2{
+  font-size: 15px;
+}
+.enroll-button01{
+  font-weight: bolder;
+  box-shadow: 0px 5px 10px grey; /* Adds grey shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for pop and shadow effect */
+}
+
+.enroll-button01:hover {
+  transform: scale(1.1); /* Pops the button slightly when hovering */
+  box-shadow: 0px 6px 15px grey; /* Increases the shadow on hover */
+}
+
+
+.enroll-button h6 {
+color: yellowgreen;
+font-size: medium;
+}
+
+
+
+  
+  .workshop-banner {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+  }
+  .profile{
+    width: 300px; /* Adjust size as needed */
+    height: 300px;
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    border-radius: 50%; 
+    border: 5px solid white;/* Makes the image circular */
+    box-shadow: #000 5px 5px 10px;
+    
+  }
+  .course-questions {
+    display: flex; /* Arrange questions horizontally */
+    flex-wrap: wrap; /* Wrap questions to a new line on smaller screens */
+    justify-content: space-around; /* Distribute questions evenly */
+  }
+  
+  .question-card {
+    width: 250px; /* Adjust width as needed */
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .question-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+.warning-text{
+  font-size: larger;
+color: #47f300;
+  text-shadow: 
+      #47f300 0 0 10px, /* First shadow */
+      #47f300 0 0 20px;;
+}
+
+  
