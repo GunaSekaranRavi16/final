@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/final/static/css/main.3a4fcd33.css",
+    "main.js": "/final/static/js/main.affb6c72.js",
+    "static/js/453.6130ce38.chunk.js": "/final/static/js/453.6130ce38.chunk.js",
+    "static/media/Vignesh.jpg": "/final/static/media/Vignesh.7231a607bad73a84a8b8.jpg",
+    "static/media/Animated Assets.png": "/final/static/media/Animated Assets.5b8726682a497fe18820.png",
+    "static/media/Overlays.png": "/final/static/media/Overlays.9d1dc0c5dd4148cee07a.png",
+    "static/media/SFX Mockup.png": "/final/static/media/SFX Mockup.ca7583a2bfe40db7efa5.png",
+    "static/media/Capcut_course_black.jpg": "/final/static/media/Capcut_course_black.4487f489c08429bd6082.jpg",
+    "static/media/Software_Box_Mockup-Capcut.png": "/final/static/media/Software_Box_Mockup-Capcut.e6cee096a653e04cda02.png",
+    "static/media/PNG Mockup.png": "/final/static/media/PNG Mockup.e19618288c0953106598.png",
+    "static/media/logo.jpg": "/final/static/media/logo.203d88294c63aa73369c.jpg",
+    "static/media/graphic-designer.png": "/final/static/media/graphic-designer.a32122e28de527ca7a91.png",
+    "static/media/students.png": "/final/static/media/students.55413447f1412d4e246e.png",
+    "static/media/online-learning.png": "/final/static/media/online-learning.e3d5ea0b4c0e0fcbc84a.png",
+    "static/media/engineer.png": "/final/static/media/engineer.6b1b3ac46d511671cb33.png",
+    "static/media/content.png": "/final/static/media/content.42446d8dcedcba9fb2bc.png",
+    "index.html": "/final/index.html",
+    "main.3a4fcd33.css.map": "/final/static/css/main.3a4fcd33.css.map",
+    "main.affb6c72.js.map": "/final/static/js/main.affb6c72.js.map",
+    "453.6130ce38.chunk.js.map": "/final/static/js/453.6130ce38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a4fcd33.css",
+    "static/js/main.affb6c72.js"
+  ]
+}
